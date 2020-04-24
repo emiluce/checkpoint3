@@ -1,0 +1,18 @@
+{
+  "name": "checkpoint3",
+  "version": "1.0.0",
+  "description": "Checkpoint3",
+  "main": "app.js",
+  "proxy": "http://localhost:3000/",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "localhost",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.3"
+  }
+}
